@@ -1,0 +1,7 @@
+# Golden model + testbench toolchain.
+# Pinned loosely on purpose: CI failing because upstream moved is a real signal.
+cocotb>=1.9,<2.0
+cocotb-bus>=0.2
+pytest>=8.0
+scapy>=2.5
+numpy>=1.26
